@@ -20,6 +20,30 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Ownglyph_UNZ-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yoonwoo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Yoonwoo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 * { margin:0; padding:0; font:inherit; color:inherit; } 
 *, :after, :before { box-sizing:border-box; flex-shrink:0; } 
 :root { -webkit-tap-highlight-color:transparent; -webkit-text-size-adjust:100%; text-size-adjust:100%; cursor:defa.rollingdivadiver-listt; line-height:1.5; overflow-wrap:break-word; -moz-tab-size:4; tab-size:4 } 
@@ -40,9 +64,9 @@ h1 { font-weight: 900; }
 .btn-close::after { position: absolute; content: ''; top: 10px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(-45deg); } 
 .btn-close::before { position: absolute; content: ''; top: 24px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(45deg); } 
 main { background: #ff6a6a; margin-top: 50px; position: relative; } 
-main .rollingdivadiver-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px; justify-content: center; } 
+main .rollingdivadiver-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px; justify-content: center; text-align: center;} 
 main .rollingdivadiver-list li { width: calc(33.33333% - 15px); background: #ffffff; border-radius: 10px; height: 140px; } 
-main .rollingdivadiver-list li a { display: flex; flex-direction: column; padding: 10px; justify-content: space-between; width: 100%; height: 100%; align-items: center; text-align: center; gap: 20px; } 
+main .rollingdivadiver-list li a { display: flex; flex-direction: column; padding: 10px; justify-content: space-between; width: 100%; height: 100%; align-items: center;  gap: 20px; } 
 main .rollingdivadiver-list li:nth-child(odd) { transform: rotate(12deg); } 
 main .rollingdivadiver-list li:nth-child(even) { transform: rotate(-12deg); } 
 main .rollingdivadiver-list li:nth-child(5n) { transform: rotate(27deg); } 
@@ -51,11 +75,11 @@ main .rollingdivadiver-list li:nth-child(7n) { transform: rotate(11deg); }
 main .rollingdivadiver-list li:nth-child(6n) { transform: rotate(-17deg); } 
 main .rollingdivadiver-list li:nth-child(27n) { transform: rotate(-11deg); } 
 main .rollingdivadiver-list li a div { width: 100%; flex: 1; overflow: hidden; font-size: 1em; display: flex; justify-content: center; } 
-main .rollingdivadiver-list li a div p { width: 100%; } 
+main .rollingdivadiver-list li a div p { width: 100%; word-break: keep-all;} 
 .rollingdivadiver-list1 { text-align: center; padding: 20px; display: flex; flex-direction: column; gap: 20px; font-size: 24px; } 
 .rollingdivadiver-list1 li { display: flex; flex-direction: column; justify-content: space-between; padding: 10px; background: #fff; border-radius: 10px; min-height: 300px; } 
 .rollingdivadiver-list1 li div { width: 100%; flex: 1; height: 100%; display: flex; align-items: center; justify-content: center; } 
-.rollingdivadiver-list1 li div p { width: 100%; } 
+.rollingdivadiver-list1 li div p { width: 100%; word-break: keep-all;} 
 .rollingdivadiver-list1 li strong {font-weight: bold;}
 main .rollingdivadiver-list li a strong { width: 100%; font-weight: bold; overflow: hidden; } 
 .rollingdivadiver-list1 { display: none; } 
@@ -72,3 +96,93 @@ main ul .n12 {font-family: 'Ownglyph_eunbyul21-Rg';}
 main ul .n14 {background-color: rgb(180, 212, 255);} 
 main ul .n15 {background-color: rgb(221, 232, 240);} 
 main ul .n16 {font-family: 'Ownglyph_ryuttung-Rg'; text-align-last: left;} 
+main ul .n17{background: url(./img/n17.jpg)center no-repeat;background-size: 100% 100%;color: red;} 
+main ul .n18{background-color: rgb(185, 242, 232);} 
+main ul .n19{background: url(./img/n19.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);} 
+main ul .n20{font-family: 'ChosunGs'; } 
+main ul .n21{font-family: 'HSGooltokki'; } 
+main ul .n22{color: red;background: #000; font-family: 'KyoboHand';} 
+main ul .n23{background: url(./img/n23.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 233, 178);;} 
+main ul .n24{font-family: 'Ownglyph_UNZ-Rg';} 
+main ul .n26{background-color: rgb(255, 66, 121); color: #fff;} 
+main ul .n27{background: url(./img/n27.jpg)center no-repeat #000;background-size: 100% 80%;color: rgb(255, 255, 255);} 
+main ul .n28{background-color: rgb(255, 236, 236);    color: rgb(226, 0, 149);font-family: 'KyoboHand';} 
+main ul .n29{background: url(./img/n29.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);text-align: right; font-family: 'BMEULJIRO';} 
+
+main ul .n30{background: url(./img/n30.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);} 
+main ul .n31{background: url(./img/n31.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);} 
+main ul .n32{background: url(./img/n32.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);} 
+main ul .n33{background-color: rgb(180, 212, 255);} 
+main ul .n34{background-color: rgb(246, 109, 211);} 
+main ul .n35{background: #000;color: rgb(255, 203, 17);font-family: 'Ownglyph_ryuttung-Rg';font-weight: bold;} 
+main ul .n36,main ul .n38,main ul .n68{background-color: rgb(180, 212, 255);} 
+main ul .n37{background: url(./img/n37.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);} 
+main ul .n39{background: url(./img/n39.jpg)center no-repeat;background-size: 100% 100%; text-align-last: left;}
+main ul .n40{background: url(./img/n40.jpg)center no-repeat;background-size: 100% 100%; color: rgb(255, 255, 255);}
+main ul .n41{font-family: 'Ownglyph_ryuttung-Rg';color: rgb(254, 141, 36);}
+main ul .n42{background: url(./img/n42.jpg)center no-repeat;background-size: 100% 100%; color: rgb(255, 255, 255);font-family: 'InkLipquid';}
+main ul .n43{ background: url(./img/n43.jpg)center no-repeat;background-size: 100% 100%;font-family: 'Ownglyph_ryuttung-Rg'; color: rgb(0, 200, 83);}
+main ul .n44{background: url(./img/n44.jpg)center no-repeat;background-size: 100% 100%;color: rgb(255, 255, 255);font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n44 div{align-items: start;}
+main ul .n45{background: url(./img/n45.jpg)center no-repeat;background-size: 100% 100%;font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n46{background-color: rgb(255, 236, 236);}
+main ul .n47{background: url(./img/n47.jpg)center no-repeat;background-size: 100% 100%;  color: rgb(251, 221, 221);  font-family: 'InkLipquid';font-weight: bold;text-align: right;}
+main ul .n47 div{align-items: end;}
+main ul .n48{font-family: 'InkLipquid';}
+main ul .n50{background: #000;color: #fff;}
+main ul .n52{background: url(./img/n52.jpg)center no-repeat;background-size: 100% 100%;  color: #fff;color: rgb(0, 200, 83);}
+main ul .n53{background-color: rgb(246, 109, 211);}
+main ul .n54{background: url(./img/n54.jpg)center no-repeat;background-size: 100% 100%;  color: #fff;}
+main ul .n55{background-color: rgb(255, 236, 236);}
+main ul .n56{background: url(./img/n56.jpg)center no-repeat;background-size: 100% 100%;  color: #fff;text-align: left;}
+main ul .n57,main ul .n90{background-color: rgb(180, 212, 255);}
+main ul .n58{background-color: rgb(253, 254, 184);}
+main ul .n59{display: none;}
+main ul .n60{background: url(./img/n60.jpg)center no-repeat;background-size: 100% 100%;}
+main ul .n61{background: url(./img/n61.jpg)center no-repeat;background-size: 100% 100%;}
+main ul .n62{background: url(./img/n62.png)center no-repeat;background-size: 100% 100%;color: #fff;text-align-last: left;    font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n63{background: url(./img/n63.png)center no-repeat;background-size: 100% 100%;  font-family: 'Ownglyph_ryuttung-Rg';color: rgb(0, 200, 83);}
+main ul .n64{background: url(./img/n64.jpg)center no-repeat;background-size: 100% 100%;}
+main ul .n65{background: url(./img/n65.jpg)center no-repeat;background-size: 100% 100%;font-family: 'Ownglyph_ryuttung-Rg'; color: rgb(226, 0, 149);}
+main ul .n66{background: url(./img/n66.jpg)center no-repeat;background-size: 100% 100%;}
+main ul .n67{background: url(./img/n67.jpg)center no-repeat;background-size: 100% 100%;text-align: right;}
+main ul .n67 div{align-items: end;}
+main ul .n69{background: url(./img/n69.jpg)center no-repeat;background-size: cover;color: #fff; text-align-last: left; font-family: 'InkLipquid';}
+main ul .n70{font-family: 'Yoonwoo';}
+main ul .n71{background: #000;color: red;}
+main ul .n72{color: rgb(254, 141, 36);}
+main ul .n73{background: url(./img/n73.jpg)center no-repeat;background-size: 100% 100%;font-family: 'InkLipquid';}
+main ul .n73 div{align-items: end;}
+main ul .n74{background: url(./img/n74.jpg)center no-repeat;background-size: 100% 100%;    font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n75{display: none;}
+main ul .n76{background: url(./img/n75.jpg)center no-repeat;background-size: 100% 100%;text-align-last: left;color: #fff; }
+main ul .n76 div{align-items: end;}
+main ul .n77{background: url(./img/n76.jpg)center no-repeat;background-size: 100% 100%;color: #fff;text-align: right;}
+main ul .n77 div{align-items: end;}
+main ul .n78{background: url(./img/n77.jpg)center no-repeat;background-size: 100% 100%;color: #fff;}
+main ul .n78 div{align-items: start;}
+main ul .n79{    background-color: rgb(253, 254, 184);    color: rgb(22, 74, 255);font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n80{background: url(./img/n79.jpg)center no-repeat;background-size: 100% 100%;color: rgb(226, 0, 149);}
+main ul .n81{background: url(./img/n80.jpg)center no-repeat;background-size: 100% 100%;}
+main ul .n81 div{align-items: end;}
+main ul .n83{background: url(./img/n83.jpg)center no-repeat;background-size: 100% 100%;color: #fff;}
+main ul .n84{background-color: rgb(255, 209, 199);}
+main ul .n85{background: url(./img/n85.jpg)center no-repeat;background-size: 100% 100%;color: #fff;font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n87{background-color: rgb(221, 232, 240);color: rgb(226, 0, 149);font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n88{background: url(./img/n88.jpg)center no-repeat;background-size: 100% 100%;color: #fff;}
+main ul .n91{background: url(./img/n91.jpg)center no-repeat;background-size: 100% 100%;color: #fff;}
+main ul .n93{background: url(./img/n93.webp)center no-repeat;background-size: 100% 100%;color: #fff;}
+main ul .n94{background: url(./img/n94.jpg)center no-repeat;background-size: 100% 100%;color: #fff;color: rgb(255, 113, 190);font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n95{background: url(./img/n95.jpg)center no-repeat;background-size: 100% 100%;}
+main ul .n98{background: url(./img/n98.jpg)center no-repeat;background-size: 100% 100%;text-align: right;}
+main ul .n99,main ul .n100{background-color: rgb(255, 209, 199);}
+main ul .n101{background-color: rgb(94, 157, 144);font-family: 'InkLipquid';}
+main ul .n102{background: url(./img/n102.jpg)center no-repeat;background-size: 100% 100%;color: #fff;}
+main ul .n103{background-color: rgb(180, 212, 255);color: rgb(226, 0, 149);}
+main ul .n105{background-color: rgb(221, 232, 240);font-family: 'Yoonwoo';}
+main ul .n106,main ul .n107{font-family: 'InkLipquid';}
+main ul .n108{display: none;}
+main ul .n111{background-color: rgb(253, 254, 184);}
+main ul .n112{background: url(./img/n112.jpeg)center no-repeat;background-size: 100% 100%;}
+main ul .n116{    color: rgb(0, 145, 234);background-color: rgb(255, 236, 236);font-family: 'Ownglyph_ryuttung-Rg';}
+main ul .n117{color: rgb(123, 31, 162);}
