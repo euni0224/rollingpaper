@@ -20,8 +20,8 @@ a { text-decoration: none; display: block; height: inherit; }
 table { border-collapse:collapse; border-spacing:0 } 
 fieldset { border: 0; } 
 body { font-family: 'Pretendard Variable', sans-serif; color: #161616; line-height: 1.6; font-size: clamp(15px,1.071428571428571vw,100vw); } 
-.inner { max-width: 768px; margin: 0 auto; overflow: hidden; } 
-header { position: fixed; top: 0; left: 50%; transform: translateX(-50%); height: 50px; width: 100%; background: #ffffff; max-width: 768px; display: flex; justify-content: center; align-items: center; z-index: 50; font-size: 30px; } 
+.inner { width: 100%; overflow: hidden; } 
+header { position: fixed; top: 0; left: 50%; transform: translateX(-50%); height: 50px; width: 100%; background: #ffffff;  display: flex; justify-content: center; align-items: center; z-index: 50; font-size: 30px; } 
 h1 { font-weight: 900; } 
 .btn-close { position: absolute; left: 5px; top: 5px; width: 40px; height: 40px; display: none; } 
 .on .btn-close { display: block; } 
@@ -29,7 +29,7 @@ h1 { font-weight: 900; }
 .btn-close::before { position: absolute; content: ''; top: 24px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(45deg); } 
 main { background: #ff6a6a; margin-top: 50px; position: relative; } 
 main .rollingdivadiver-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px; justify-content: center; text-align: center; } 
-main .rollingdivadiver-list li { width: calc(33.33333% - 15px); background: #ffffff; border-radius: 10px; height: 140px; } 
+main .rollingdivadiver-list li { width: calc(33.33333% - 15px); background: #ffffff; border-radius: 10px; height: 30vw; } 
 main .rollingdivadiver-list li a { display: flex; flex-direction: column; padding: 10px; justify-content: space-between; width: 100%; height: 100%; align-items: center; gap: 20px; } 
 main .rollingdivadiver-list li:nth-child(odd) { transform: rotate(12deg); } 
 main .rollingdivadiver-list li:nth-child(even) { transform: rotate(-12deg); } 
@@ -40,8 +40,8 @@ main .rollingdivadiver-list li:nth-child(6n) { transform: rotate(-17deg); }
 main .rollingdivadiver-list li:nth-child(27n) { transform: rotate(-11deg); } 
 main .rollingdivadiver-list li a div { width: 100%; flex: 1; overflow: hidden; font-size: 1em; display: flex; justify-content: center; } 
 main .rollingdivadiver-list li a div p { width: 100%; word-break: keep-all; } 
-.rollingdivadiver-list1 { text-align: center; padding: 20px; display: flex; flex-direction: column; gap: 20px; font-size: 24px; } 
-.rollingdivadiver-list1 li { display: flex; flex-direction: column; justify-content: space-between; padding: 10px; background: #fff; border-radius: 10px; min-height: 300px; } 
+.rollingdivadiver-list1 { text-align: center; padding: 20px; display: flex; flex-direction: column; gap: 20px; font-size: 50px; } 
+.rollingdivadiver-list1 li { display: flex; flex-direction: column; justify-content: space-between; padding: 10px; background: #fff; border-radius: 10px; min-height: 90vw; } 
 .rollingdivadiver-list1 li div { width: 100%; flex: 1; height: 100%; display: flex; align-items: center; justify-content: center; } 
 .rollingdivadiver-list1 li div p { width: 100%; word-break: keep-all; } 
 .rollingdivadiver-list1 li strong { font-weight: bold; } 
@@ -138,7 +138,7 @@ main ul .n91 { background: url(./img/n91.jpg)center no-repeat; background-size: 
 main ul .n93 { background: url(./img/n93.webp)center no-repeat; background-size: 100% 100%; color: #fff; } 
 main ul .n94 { background: url(./img/n94.jpg)center no-repeat; background-size: 100% 100%; color: #fff; color: rgb(255, 113, 190); font-family: 'Ownglyph_ryuttung-Rg'; } 
 main ul .n95 { background: url(./img/n95.jpg)center no-repeat; background-size: 100% 100%; } 
-main ul .n98 { font-family: 'InkLipquid'; text-align: right; } 
+main ul .n98 { background: url(./img/n98.jpg)center no-repeat; background-size: 100% 100%;font-family: 'InkLipquid'; text-align: right; } 
 main ul .n99,main ul .n100 { background-color: rgb(255, 209, 199); } 
 main ul .n101 { background-color: rgb(94, 157, 144); font-family: 'InkLipquid'; } 
 main ul .n102 { background: url(./img/n102.jpg)center no-repeat; background-size: 100% 100%; color: #fff; } 
@@ -152,3 +152,5 @@ main ul .n116 { color: rgb(0, 145, 234); background-color: rgb(255, 236, 236); f
 main ul .n117 { color: rgb(123, 31, 162); } 
 main ul .n118 { background-color: rgb(255, 66, 121);font-family: 'InkLipquid';} 
 main ul .n119 { background: url(./img/n119.jpg)center no-repeat; background-size: cover; color: #fff;} 
+
+
