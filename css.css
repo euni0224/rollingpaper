@@ -28,7 +28,7 @@ h1 { font-weight: 900; }
 .btn-close::after { position: absolute; content: ''; top: 10px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(-45deg); } 
 .btn-close::before { position: absolute; content: ''; top: 24px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(45deg); } 
 main { background: #ff6a6a; margin-top: 50px; position: relative; } 
-main .rollingdivadiver-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px; justify-content: center; text-align: center; } 
+main .rollingdivadiver-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px; justify-content: center; text-align: center;font-size: 30px; } 
 main .rollingdivadiver-list li { width: calc(33.33333% - 15px); background: #ffffff; border-radius: 10px; height: 30vw; } 
 main .rollingdivadiver-list li a { display: flex; flex-direction: column; padding: 10px; justify-content: space-between; width: 100%; height: 100%; align-items: center; gap: 20px; } 
 main .rollingdivadiver-list li:nth-child(odd) { transform: rotate(12deg); } 
@@ -38,7 +38,7 @@ main .rollingdivadiver-list li:nth-child(3n) { transform: rotate(-7deg); }
 main .rollingdivadiver-list li:nth-child(7n) { transform: rotate(11deg); } 
 main .rollingdivadiver-list li:nth-child(6n) { transform: rotate(-17deg); } 
 main .rollingdivadiver-list li:nth-child(27n) { transform: rotate(-11deg); } 
-main .rollingdivadiver-list li a div { width: 100%; flex: 1; overflow: hidden; font-size: 1em; display: flex; justify-content: center; } 
+main .rollingdivadiver-list li a div { width: 100%; flex: 1; overflow: hidden; font-size: 1em; display: flex; justify-content: center;align-items: center; } 
 main .rollingdivadiver-list li a div p { width: 100%; word-break: keep-all; } 
 .rollingdivadiver-list1 { text-align: center; padding: 20px; display: flex; flex-direction: column; gap: 20px; font-size: 50px; } 
 .rollingdivadiver-list1 li { display: flex; flex-direction: column; justify-content: space-between; padding: 10px; background: #fff; border-radius: 10px; min-height: 90vw; } 
