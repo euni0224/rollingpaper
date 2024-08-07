@@ -138,7 +138,7 @@ main ul .n91 { background: url(./img/n91.jpg)center no-repeat; background-size: 
 main ul .n93 { background: url(./img/n93.webp)center no-repeat; background-size: 100% 100%; color: #fff; } 
 main ul .n94 { background: url(./img/n94.jpg)center no-repeat; background-size: 100% 100%; color: #fff; color: rgb(255, 113, 190); font-family: 'Ownglyph_ryuttung-Rg'; } 
 main ul .n95 { background: url(./img/n95.jpg)center no-repeat; background-size: 100% 100%; } 
-main ul .n98 { background: url(./img/n98.jpg)center no-repeat; background-size: 100% 100%; text-align: right; } 
+main ul .n98 { font-family: 'InkLipquid'; text-align: right; } 
 main ul .n99,main ul .n100 { background-color: rgb(255, 209, 199); } 
 main ul .n101 { background-color: rgb(94, 157, 144); font-family: 'InkLipquid'; } 
 main ul .n102 { background: url(./img/n102.jpg)center no-repeat; background-size: 100% 100%; color: #fff; } 
@@ -150,3 +150,5 @@ main ul .n111 { background-color: rgb(253, 254, 184); }
 main ul .n112 { background: url(./img/n112.jpeg)center no-repeat; background-size: 100% 100%; } 
 main ul .n116 { color: rgb(0, 145, 234); background-color: rgb(255, 236, 236); font-family: 'Ownglyph_ryuttung-Rg'; } 
 main ul .n117 { color: rgb(123, 31, 162); } 
+main ul .n118 { background-color: rgb(255, 66, 121);font-family: 'InkLipquid';} 
+main ul .n119 { background: url(./img/n119.jpg)center no-repeat; background-size: cover; color: #fff;} 
