@@ -40,6 +40,7 @@ main .rollingdivadiver-list li:nth-child(6n) { transform: rotate(-17deg); }
 main .rollingdivadiver-list li:nth-child(27n) { transform: rotate(-11deg); } 
 main .rollingdivadiver-list li a div { width: 100%; flex: 1; overflow: hidden; font-size: 1em; display: flex; justify-content: center;align-items: center; } 
 main .rollingdivadiver-list li a div p { width: 100%; word-break: keep-all; } 
+main .rollingdivadiver-list li strong{ white-space: nowrap;}
 .rollingdivadiver-list1 { text-align: center; padding: 20px; display: flex; flex-direction: column; gap: 20px; font-size: 50px; } 
 .rollingdivadiver-list1 li { display: flex; flex-direction: column; justify-content: space-between; padding: 10px; background: #fff; border-radius: 10px; min-height: 90vw; } 
 .rollingdivadiver-list1 li div { width: 100%; flex: 1; height: 100%; display: flex; align-items: center; justify-content: center; } 
