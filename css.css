@@ -1,0 +1,47 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+* { margin:0; padding:0; font:inherit; color:inherit; } 
+*, :after, :before { box-sizing:border-box; flex-shrink:0; } 
+:root { -webkit-tap-highlight-color:transparent; -webkit-text-size-adjust:100%; text-size-adjust:100%; cursor:defa.rollingdivadiver-listt; line-height:1.5; overflow-wrap:break-word; -moz-tab-size:4; tab-size:4 } 
+html, body { height:100%; line-height: 1; } 
+img, picture, video, canvas, svg { display: block; max-width:100%; object-fit: cover; } 
+img, video{
+    width: 100%;
+    height: 100%;
+}
+button { background:none; border:0; cursor:pointer; } 
+ul { list-style: none; } 
+a { text-decoration: none; display: block; height: inherit; } 
+table { border-collapse:collapse; border-spacing:0 } 
+fieldset{border: 0;}
+body { 
+    font-family: 'Pretendard Variable', sans-serif;
+    color: #161616;
+    line-height: 1.6;
+    font-size: clamp(15px,1.071428571428571vw,100vw);
+}
+.inner{max-width: 768px;margin: 0 auto;overflow: hidden;}
+header{position: fixed;top: 0;left: 50%; transform: translateX(-50%);height: 50px;width: 100%;background: #ffffff;max-width: 768px;display: flex;justify-content: center;align-items: center;z-index: 50;font-size: 30px;}
+h1{font-weight: 900;}
+.btn-close{position: absolute; left: 5px;top: 5px;width: 40px;height: 40px; display: none;}
+.on .btn-close{display: block;}
+.btn-close::after{position: absolute;content: '';top: 10px;left: 0; width: 20px;height: 1px;background: #000;transform: rotate(-45deg);}
+.btn-close::before{position: absolute;content: '';top: 24px;left: 0; width: 20px;height: 1px;background: #000;transform: rotate(45deg);}
+main{background: #ff6a6a;margin-top: 50px;position: relative;}
+main .rollingdivadiver-list{display: flex; flex-wrap: wrap;gap: 20px;padding: 40px;justify-content: center;}
+main .rollingdivadiver-list li{width: calc(33.33333% - 15px);background: #ffffff;border-radius: 10px;height: 140px;}
+main .rollingdivadiver-list li a{display: flex; flex-direction: column; padding: 10px; justify-content: space-between;width: 100%;height: 100%;align-items: center;text-align: center; gap: 20px; }
+main .rollingdivadiver-list li:nth-child(odd){transform: rotate(12deg);}
+main .rollingdivadiver-list li:nth-child(even){transform: rotate(-12deg);}
+main .rollingdivadiver-list li:nth-child(5n){transform: rotate(27deg);}
+main .rollingdivadiver-list li:nth-child(3n){transform: rotate(-7deg);}
+main .rollingdivadiver-list li:nth-child(7n){transform: rotate(11deg);}
+main .rollingdivadiver-list li:nth-child(6n){transform: rotate(-17deg);}
+main .rollingdivadiver-list li:nth-child(27n){transform: rotate(-11deg);}
+main .rollingdivadiver-list li a div{width: 100%; flex: 1; overflow: hidden;font-size: 1em;display: flex;justify-content: center;}
+main .rollingdivadiver-list li a div p{width: 100%;}
+.rollingdivadiver-list1{text-align: center;padding: 20px;display: flex; flex-direction: column;gap: 20px;}
+.rollingdivadiver-list1 li{display: flex; flex-direction: column; justify-content: space-between;padding: 10px;background: #fff;border-radius: 10px; min-height: 300px;}
+.rollingdivadiver-list1 li div{width: 100%; flex: 1; height: 100%;display: flex;align-items: center;justify-content: center;}
+.rollingdivadiver-list1 li div p{width: 100%;}
+main .rollingdivadiver-list li a strong{width: 100%;font-weight: bold;overflow: hidden;}
+.rollingdivadiver-list1{display: none;}
