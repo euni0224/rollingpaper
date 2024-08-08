@@ -21,13 +21,13 @@ table { border-collapse:collapse; border-spacing:0 }
 fieldset { border: 0; } 
 body { font-family: 'Pretendard Variable', sans-serif; color: #161616; line-height: 1.6; font-size: clamp(15px,1.071428571428571vw,100vw); } 
 .inner { width: 100%; overflow: hidden; } 
-header { position: fixed; top: 0; left: 50%; transform: translateX(-50%); height: 50px; width: 100%; background: #ffffff;  display: flex; justify-content: center; align-items: center; z-index: 50; font-size: 30px; } 
+header { position: fixed; top: 0; left: 50%; transform: translateX(-50%); height: 80px; width: 100%; background: #ffffff;  display: flex; justify-content: center; align-items: center; z-index: 50; font-size: 30px; } 
 h1 { font-weight: 900; } 
-.btn-close { position: absolute; left: 5px; top: 5px; width: 40px; height: 40px; display: none; } 
+.btn-close { position: absolute; left: 10px; top: 20px; width: 40px; height: 40px; display: none; } 
 .on .btn-close { display: block; } 
 .btn-close::after { position: absolute; content: ''; top: 10px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(-45deg); } 
 .btn-close::before { position: absolute; content: ''; top: 24px; left: 0; width: 20px; height: 1px; background: #000; transform: rotate(45deg); } 
-main { background: #ff6a6a; margin-top: 50px; position: relative; } 
+main { background: #ff6a6a; margin-top: 80px; position: relative; } 
 main .rollingdivadiver-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px; justify-content: center; text-align: center;font-size: 30px; } 
 main .rollingdivadiver-list li { width: calc(33.33333% - 15px); background: #ffffff; border-radius: 10px; height: 30vw; } 
 main .rollingdivadiver-list li a { display: flex; flex-direction: column; padding: 10px; justify-content: space-between; width: 100%; height: 100%; align-items: center; gap: 20px; } 
@@ -153,5 +153,12 @@ main ul .n116 { color: rgb(0, 145, 234); background-color: rgb(255, 236, 236); f
 main ul .n117 { color: rgb(123, 31, 162); } 
 main ul .n118 { background-color: rgb(255, 66, 121);font-family: 'InkLipquid';} 
 main ul .n119 { background: url(./img/n119.jpg)center no-repeat; background-size: cover; color: #fff;} 
+main ul .n120 { background: url(./img/n120.jpg)center no-repeat; background-size: 100% 100%; font-family: 'Ownglyph_ryuttung-Rg';color: #fff;} 
+main ul .n121 { background-color: rgb(255, 236, 236);} 
+main ul .n122 {background: url(./img/n122.jpg)center no-repeat; background-size: 100% 100%; font-family: 'Ownglyph_ryuttung-Rg';} 
+main ul .n123 {text-align: right; background: #000;color: #fff;} 
+main ul .n124 {background-color: rgb(180, 212, 255); } 
+main ul .n120 {} 
+main ul .n120 {} 
 
 
