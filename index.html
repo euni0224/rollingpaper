@@ -7,12 +7,16 @@
 
     <title>티원 아묻따 응원</title>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./re.css">
 
 </head>
 
 <body>
+    <div class="intro">
+        <div class="gif-box"><img src="./img/intro.gif" alt=""></div>
+    </div>
     <div class="inner">
         <header>
             <button class="btn-close"></button>
@@ -153,6 +157,7 @@
                     </a>
                 </li>
                 <li class="n14">
+                    <i>🍀</i>
                     <a href="#n14">
                         <div>
                             <p>내 인생의 처음이자<br>
@@ -212,6 +217,7 @@
                     </a>
                 </li>
                 <li class="n19">
+                    <i>🍩</i>
                     <a href="#n19">
                         <div>
                             <p>응원 맛이 어때<br>
@@ -244,6 +250,7 @@
                     </a>
                 </li>
                 <li class="n22">
+                    <i>🍀</i>
                     <a href="#n22">
                         <div>
                             <p>멍청해도 게임만 잘하면 된다. <br>
@@ -285,6 +292,7 @@
                     </a>
                 </li>
                 <li class="n26">
+                    <i>🍀</i>
                     <a href="#n26">
                         <div>
                             <p>24년 티원과 함께하는<br>
@@ -444,6 +452,7 @@
                     </a>
                 </li>
                 <li class="n42">
+                    <i>⭐️</i>
                     <a href="#n42">
                         <div>
                             <p>너희가 최고야!<br>
@@ -543,6 +552,7 @@
                     </a>
                 </li>
                 <li class="n51">
+                    <i>🍄</i>
                     <a href="#n51">
                         <div>
                             <p>너희가 행복해 할때<br>
@@ -659,6 +669,7 @@
                     </a>
                 </li>
                 <li class="n61">
+                    <i>👊</i>
                     <a href="#n61">
                         <div>
                             <p>응원하고싶은데 어떡하라고👊<br>
@@ -725,6 +736,7 @@
                     </a>
                 </li>
                 <li class="n68">
+                    <i>👊🏻</i>
                     <a href="#n68">
                         <div>
                             <p>너네 덕분에 항상 재밌고 행복해<br>
@@ -853,6 +865,7 @@
                     </a>
                 </li>
                 <li class="n82">
+                    <i>🌹</i>
                     <a href="#n82">
                         <div>
                             <p>매순간 진심을 다해<br>
@@ -893,6 +906,7 @@
                     </a>
                 </li>
                 <li class="n86">
+                    <i>🍀</i>
                     <a href="#n86">
                         <div>
                             <p>그림자가 생기는것을 두려워마라<br>
@@ -958,6 +972,7 @@
                     </a>
                 </li>
                 <li class="n92">
+                    <i>🫶</i>
                     <a href="#n92">
                         <div>
                             <p>제오페구케 티원 응원안하기?<br>
@@ -1003,6 +1018,7 @@
                     </a>
                 </li>
                 <li class="n96">
+                    <i>❤️‍🔥</i>
                     <a href="#n96">
                         <div>
                             <p>최우제 문현준 이상혁 이민형 류민석 이 다섯 선수들이 3년간 보여준 추억이 너무 꿈결같고 즐거웠어서,늘 선물같고 내가 열심히 살 동기가 되어줘서 고마워요. 근데
@@ -1213,6 +1229,7 @@
                     </a>
                 </li>
                 <li class="n117">
+                    <i>🔥</i>                    
                     <a href="#n117">
                         <div>
                             <p>제오페구케 파이팅🔥🔥<br>
@@ -1254,6 +1271,7 @@
                     </a>
                 </li>
                 <li class="n121">
+                    <i>🍀</i>
                     <a href="#n121">
                         <div>
                             <p>안녕하십니까~😆(상혁이 톤으로) <br>
@@ -1290,6 +1308,7 @@
                     </a>
                 </li>
                 <li class="n124">
+                    <i>🍀</i>
                     <a href="#n124">
                         <div>
                             <p>아프지 말고 늘 건강하게, 재밌게 게임하자 항상 응원할게<br>
@@ -2374,7 +2393,17 @@
                 $('.rollingdivadiver-list').css('display', 'flex');
                 $('h1').text('클릭해서 자세히 보기');
             })
-        })
+            gsap.set('body', { overflow: 'hidden',})
+            intro = gsap.timeline({
+                defaults: {
+                    duration: 2.5,
+                }
+            })
+            intro
+            .to('.intro', { delay: 2.5, yPercent: -200 })
+            .to('body',{ 'overflow': 'auto'})
+            .to
+                })
     </script>
 </body>
 
