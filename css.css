@@ -201,4 +201,9 @@ main .rollingdivadiver-list li.n95::after{position: absolute;content: '';width: 
 main .rollingdivadiver-list li.n104::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
 main .rollingdivadiver-list li.n111::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
 main .rollingdivadiver-list li.n120::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
+main .rollingdivadiver-list li.n128::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
+main .rollingdivadiver-list li.n131::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
+/* main .rollingdivadiver-list li.n120::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
+main .rollingdivadiver-list li.n120::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;}
+main .rollingdivadiver-list li.n120::after{position: absolute;content: '';width: 150px;height: 150px;top: -15px;left: -100px;transform: rotate(-12deg);background: url(./img/logo.png)no-repeat center; background-size: contain;} */
 main .rollingdivadiver-list li.n95::after{}
